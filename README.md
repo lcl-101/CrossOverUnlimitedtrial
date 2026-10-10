@@ -42,3 +42,9 @@
 1. 下载或在工作区双击解压 [CrossOverHelper.zip](file:///Users/lcl101/workspace/corssover_data/CrossOverHelper.zip)。
 2. 将解压出的 `CrossOverHelper.app` 拖入您的 `/Applications`（应用程序）文件夹中。
 3. 双击运行即可。
+
+#### 应用程序“CrossOverHelper”无法打开
+执行下面命令
+```
+sudo xattr -r -d com.apple.quarantine  /Applications/CrossOverHelper.app
+```
